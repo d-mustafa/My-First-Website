@@ -1,0 +1,123 @@
+/* Base */
+html {
+  background: url(images/wallpaper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 600px;
+  margin: 20px auto;
+  border: 3px solid rgb(0, 2, 128);
+  padding: 30px 75px;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Text */
+p {
+  line-height: 25px;
+}
+
+header,
+div {
+  padding-left: 10px;
+}
+
+footer {
+  padding-bottom: 10px;
+}
+
+header,
+div,
+footer {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgb(0, 119, 255);
+  border-radius: 20px;
+}
+
+header:hover,
+div:hover,
+footer:hover {
+  background-color: rgb(196, 202, 255);
+  border: 1px solid blue;
+  border-radius: 20px;
+}
+
+h1:hover,
+h2:hover,
+h3:hover {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#ublue {
+  color: blue;
+  text-decoration: none;
+}
+
+.centerh3 {
+  text-align: center;
+  margin-left: 10px;
+}
+
+/* Images */
+img {
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 100px;
+  border-radius: 30px;
+}
+
+img:hover {
+  border-radius: 10px;
+}
+
+.imgcenter {
+  text-align: center;
+}
+
+#volleyballimg {
+  border: 3px red;
+  border-style: groove;
+}
+
+#controllerimg {
+  border: 3px cyan;
+  border-style: groove;
+  margin-bottom: 10px;
+}
+
+#narutoimg {
+  border: 3px orange;
+  border-style: groove;
+}
+
+#pushupimg {
+  border: 3px limegreen;
+  border-style: groove;
+  width: 150px;
+}
+
+#zimg {
+  border: 3px gray;
+  border-style: groove;
+}
+
+/* Anchors */
+
+a {
+  margin: auto;
+  text-decoration: none;
+  color: rgb(0, 119, 255);
+}
+
+.a-center {
+  margin-left: 220px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}

@@ -1,0 +1,19 @@
+html {
+  background-color: rgb(196, 255, 172);
+}
+
+body {
+  background-color: white;
+  width: 500px;
+  margin: 60px auto;
+  border: 5px solid green;
+  padding: 30px 75px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  width: 180px;
+  margin: auto;
+}
